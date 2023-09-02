@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: #14213d;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.banner{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#texto, #titulo{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+}
+.texto .frase{
+    color: #fff;
+    font-size: 20px;
+    /*padding: 10px;*/
+    font-weight: 600;
+    margin: 10px;
+}
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes a{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.texto .botoes a.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes a.n-overlay:hover{
+    color: black;
+    background-color: white;    
+}
+.texto .botoes a.overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes a.overlay:hover{
+    background: white;
+    color: black;
+
+}
+
+.footer {
+    background-color: #14213d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.video-container {
+    max-width: 640px; /* Largura máxima desejada */
+    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+}
+
+.video {
+    width: 640px; /* Preenche a largura do contêiner */
+    height: 360px; /* Calcula automaticamente a altura proporcional com base na largura */
+}
+
+.image-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image p {
+    margin-top: 10px;
+}
+
+.image a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image {
+    width: 240px;
+    height: 300px;
+    border: 5px solid #14213d; 
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 45px;
+    background-color: #14213dad;
+}
+
+.image img {
+    max-width: 94.5%;
+    max-height: 100%;
+    border-radius: 50px;
+}
+
+#redes {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 70px;
+}
+
+#increase-font-size {
+    font-size: 1em;
+}
+
+#decrease-font-size {
+    font-size: 1em;
+}
+
+#content {
+    font-size: 1em;
+    text-align: center;
+}
+  
+  iframe {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: white;
+    color:black;
+
+}
+
+  h1 {
+    text-align: center;
+    /*padding: 20px 0;*/
+  }
+
+.tituloo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    /*margin-top: 10px;*/
+}
